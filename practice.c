@@ -6,4 +6,5 @@ int main(void)
 {
     printf("This is my practice page");
     printf("A new message");
+    printf("Can you see this julio?");
 }
