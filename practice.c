@@ -8,4 +8,5 @@ int main(void)
     printf("A new message");
     printf("A new update bitchx");
     printf("Can you see this julio?");
+    printf("I think I finally figured it out");
 }
