@@ -4,5 +4,17 @@
 
 int main(void)
 {
-    printf("Hello how are you doing\n\n\nAre you doing fine?\n\n");
+    int age;
+
+    printf("How old are you?\n\n");
+    scanf("%d", &age);
+    if (age < 30)
+    {
+        printf("You are really young\n\n");
+    }
+    else if (age > 30)
+    {
+        printf("You are considerably older\n\n");
+    }
+
 }
