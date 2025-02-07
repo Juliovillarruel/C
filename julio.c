@@ -9,7 +9,7 @@ int main(void)
     printf("\t\t\t\t--------------------------\n");
 
     int value; 
-    scanf("%d", value);
+    scanf("%jd", value);
 
     if(value == 5)
     {
