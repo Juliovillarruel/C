@@ -4,14 +4,15 @@
 
 int main(void)
 {
-    printf("Hello how are you\n\n");
 
-    int dataSetNumOne[]= {2,4,5,6,8,10};
-    char names[10] = "Hello";
+    printf("\n\n\t\t\t--------------------------------\n");
+    printf("\t\t\t|\tHow Can I help you?\t|\n");
+    printf("\t\t\t--------------------------------\n\n\n");
 
-    printf("%d\n\n", dataSetNumOne[0]);
-    printf("%c\n\n", names[0]);
+    char firstResponse[100];
 
+    scanf("%c", &firstResponse[100]);
     
+
 
 }
