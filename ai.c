@@ -10,7 +10,7 @@ int main(void)
     printf("\t\t\t--------------------------------\n\n\n");
 
     char firstResponse[100];
-
+daemon
     scanf("%c", &firstResponse[100]);
     
 
