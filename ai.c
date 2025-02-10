@@ -12,6 +12,26 @@ int main(void)
     char firstResponse[100];
     scanf("%c", firstResponse);
 
+    for (int a = 0; a < 100; a++)
+    {
+        if (firstResponse[a] == 'h')
+        {
+            if (firstResponse[a] == 'e')
+            {
+                if (firstResponse[a] == 'l')
+                {
+                    if (firstResponse[a] == 'l')
+                    {
+                        if (firstResponse[a] == 'o')
+                        {
+                            printf("We detected a hello in your statement");
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 
 
 }
