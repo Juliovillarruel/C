@@ -11,6 +11,7 @@ int main(void)
 
     char firstResponse[100] = "jjjjjjuuuuuulllllhelloiiiiiiiiiooooooooooo";
 
+    printf("%c", firstResponse[17]);
     /*
 
     for (int a = 0; a < 100; a++)
@@ -36,25 +37,28 @@ int main(void)
     */
 
 
-    int b;
+    int a;
 
     for (int a = 0; a < 100; a++)
     {
         if (firstResponse[a] == 'h')
         {
-            int a = 0;
-            if (firstResponse[a] == 'e')
+            //int a = 0;
+            if (firstResponse[a + 1] == 'e')
             {
-                int a = 0;
-                if (firstResponse[a] == 'l')
+                //int a = 0;
+                printf("%d\n\n", a); 
+                if (firstResponse[a + 1] == 'l')
                 {
-                    int a = 0;
-                   if (firstResponse[a] == 'l')
+                    //int a = 0;
+                    printf("%d\n\n", a); // This line could not have been activated ***********
+                    if (firstResponse[a + 1] == 'l')
                    {    
-                        int a = 0;
-                        if (firstResponse[a] == 'o')
+                        //int a = 0;
+                        if (firstResponse[a + 1] == 'o')
                         {
                             printf("We detected a hello in the entire subset\n\n");
+                            break;
                         }
                    }
                 }
