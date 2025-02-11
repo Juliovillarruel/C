@@ -9,29 +9,27 @@ int main(void)
     printf("\t\t\t------------------------------------\n");
 
 
-    char firstResponse[100];
-    scanf("%c", firstResponse);
+    char firstResponse[100] = "hello"
 
     for (int a = 0; a < 100; a++)
     {
-        if (firstResponse[a] == 'h')
+        if (firstResponse[0] == 'h')
         {
-            if (firstResponse[a] == 'e')
+            if (firstResponse[1] == 'e')
             {
-                if (firstResponse[a] == 'l')
+                if (firstResponse[2] == 'l')
                 {
-                    if (firstResponse[a] == 'l')
+                    if (firstResponse[3] == 'l')
                     {
-                        if (firstResponse[a] == 'o')
+                        if (firstResponse[4] == 'o')
                         {
-                            printf("We detected a hello in your statement");
+                            printf("The first word was detected as hello");
                         }
                     }
                 }
             }
         }
-    }
-
+        
 
 
 }
