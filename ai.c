@@ -12,6 +12,7 @@ int main(void)
     char firstResponse[100] = "jjjjjjuuuuuulllllhelloiiiiiiiiiooooooooooo";
 
     printf("%c", firstResponse[17]);
+    int test = 0;
     /*
 
     for (int a = 0; a < 100; a++)
