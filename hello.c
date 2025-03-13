@@ -7,4 +7,5 @@ int main(void)
     printf("Hello, world!\n");  
     omg  
     hello 
+    can you see this imac?
 }
